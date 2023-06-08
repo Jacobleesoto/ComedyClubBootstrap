@@ -1,0 +1,28 @@
+#granny {
+  max-width: 15%;
+  height: auto;
+}
+
+#headlinerVideo {
+  position: static;
+  width: 70%;
+  height: 20%;
+}
+
+body {
+  background-color: rgb(59, 2, 2)
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.table td,
+p {
+  color: yellow;
+}
+
+.table th,
+h5 {
+  color: rgb(255, 255, 255)
+}
