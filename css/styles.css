@@ -26,3 +26,14 @@ p {
 h5 {
   color: rgb(255, 255, 255)
 }
+
+h2 {
+  color:blue
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #1a1a1a, rgb(59, 2, 2),  #1a1a1a);
+  color: rgb(149, 146, 0);
+}
