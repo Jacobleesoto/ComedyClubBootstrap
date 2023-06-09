@@ -37,3 +37,32 @@ h2 {
   background-image: linear-gradient(to right, #1a1a1a, rgb(59, 2, 2),  #1a1a1a);
   color: rgb(149, 146, 0);
 }
+
+.carousel-item img {
+  width: 350px;
+  max-height: 500px;
+}
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
+}
+
