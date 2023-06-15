@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 
+
 <html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" conent="width=device-width, initial=scale=1">
-
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
     <link rel="stylesheet" href="css\styles.css" />
-
     <title>Comedy Club</title>
 </head>
 
 
 <body>
-
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
@@ -28,6 +26,7 @@
             </div>
         </div>
     </header>
+
 
     <nav class="navbar navbar-expand-sm sticky-top">
         <div class="container">
@@ -48,16 +47,248 @@
                 </ul>
             </div>
         </div>
-
     </nav>
+
 
     <h1 class="text-center">Forum!</h1>
 
 
+    <div class="container">
+        <div class="justify-content-center">
+            <button class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#threadModal">
+                Start a New Thread
+            </button>
+        </div>
+        <div class="p-3 h-100">
+            <nav class="nav nav-pills nav-gap-y-1 flex-column">
+                <a href="javascript:void(0)" class="nav-link active">All Threads</a>
+                <a href="javascript:void(0)" class="nav-link">Most Recent</a>
+                <a href="javascript:void(0)" class="nav-link">Most Popular</a>
+            </nav>
+        </div>
+        <div>
+            <select class="custom-select custom-select-sm w-auto mr-1">
+                <option selected="">Most Recent</option>
+                <option value="1">Most Popular</option>
+            </select>
+            <span>
+                <input type="text" class="form-control form-control-sm mb-4 mt-4" placeholder="Search" />
+            </span>
+        </div>
+
+
+        <div class="inner-main-body p-2 p-sm-3 collapse forum-content show">
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Best
+                                    Comedy Show Ever</a></h6>
+                            <p class="text-secondary">
+                                lorem ipsum ipsum lorem lor lor ipsum ip some ip more ip ip ip
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User1</a> replied <span
+                                    class="text-secondary font-weight-bold">45 minutes ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">My
+                                    Review of Last nights Show</a></h6>
+                            <p class="text-secondary">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Nec feugiat nisl pretium fusce.
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User2</a> replied <span
+                                    class="text-secondary font-weight-bold">3 hours ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Who is
+                                    The Best Comedian?</a></h6>
+                            <p class="text-secondary">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User3</a> replied <span
+                                    class="text-secondary font-weight-bold">7 hours ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Comedy
+                                    Comedy Comedy</a></h6>
+                            <p class="text-secondary">
+                                Lorem ipsum dolor sit amet, . lor ip some
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User4</a> replied <span
+                                    class="text-secondary font-weight-bold">8 hours ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Any
+                                    Tips on Getting Better at Stand-up?</a></h6>
+                            <p class="text-secondary">
+                                lorem ipsum blam boom bang pow ka-ching
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User5</a> replied <span
+                                    class="text-secondary font-weight-bold">12 hours ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Off
+                                    Topic but...</a></h6>
+                            <p class="text-secondary">
+                                lorem ipsum shimmy sham wow chipotle away
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User6</a> replied <span
+                                    class="text-secondary font-weight-bold">13 hours ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body p-2 p-sm-3">
+                    <div class="media forum-item">
+                        <a href="#" data-toggle="collapse" data-target=".forum-content"><img
+                                src="images\profile-image.png" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                        <div class="media-body">
+                            <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">You
+                                    Had to Be There</a></h6>
+                            <p class="text-secondary">
+                                lorem ipsum dolor one time at band camp
+                            </p>
+                            <p class="text-muted"><a href="javascript:void(0)">User7</a> replied <span
+                                    class="text-secondary font-weight-bold">26 hours ago</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="pagination pagination-sm pagination-circle justify-content-center mb-0">
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+                <li class="page-item active"><span class="page-link">2</span></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+            </ul>
+        </div>
+
+
+        <div class="inner-main-body p-2 p-sm-3 collapse forum-content">
+            <a href="#" class="btn btn-light btn-sm mb-3 " data-toggle="collapse" data-target=".forum-content"><i
+                    class="fa fa-arrow-left mr-2"></i>Back</a>
+            <div class="card mb-2">
+                <div class="card-body">
+                    <div class="media forum-item">
+                        <a href="javascript:void(0)" class="card-link">
+                            <img src="images\profile-image.png" class="rounded-circle" width="50" alt="User" />
+                            <small class="d-block text-center text-muted">User1</small>
+                        </a>
+                        <div class="media-body ml-3">
+                            <a href="javascript:void(0)" class="text-secondary">User1</a>
+                            <small class="text-muted ml-2">1 hour ago</small>
+                            <h5 class="mt-1">Realtime fetching data</h5>
+                            <div class="mt-3 font-size-sm">
+                                <p>First time watching the Legion Live</p>
+                                <p>
+                                    The LOS podcast was the funniest show ive seen in a long time. they say things other
+                                    comics wont and i cant belive the things they say sometimes. They have me laughing
+                                    all the time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body">
+                    <div class="media">
+                        <a href="javascript:void(0)" class="card-link">
+                            <img src="images\profile-image.png" class="rounded-circle" width="50" alt="User" />
+                            <small class="d-block text-center text-muted">User2</small>
+                        </a>
+                        <div class="media-body ml-3">
+                            <a href="javascript:void(0)" class="text-secondary">User2</a>
+                            <small class="text-muted ml-2">1 hour ago</small>
+                            <div class="mt-3 font-size-sm">
+                                <p>I didnt understand them at first but i really like them too!</p>
+                            </div>
+                            <button class="btn btn-xs text-muted">1</button>
+                            <a href="javascript:void(0)" class="text-muted small">Reply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
 
+        <div class="modal fade" id="threadModal" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header d-flex align-items-center bg-primary text-white">
+                            <h6 class="modal-title mb-0" id="threadModalLabel">New Thread</h6>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="threadTitle">Title</label>
+                                <input type="text" class="form-control" id="threadTitle" placeholder="Enter title"
+                                    autofocus="" />
+                            </div>
+                            <textarea class="form-control" style="display: none;"></textarea>
+                            <div class="custom-file form-control-sm mt-3" style="max-width: 300px;">
+                                <input type="file" class="custom-file-input" id="customFile" multiple="" />
+                                <label class="custom-file-label" for="customFile">Attachment</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
     <footer>
         <div>
             <h5>Links</h5>
