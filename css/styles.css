@@ -65,3 +65,7 @@ h2 {
   transform: translateX(0);
   
 }
+
+#headlinerCard {
+  background-color: rgb(59, 2, 2);
+}
