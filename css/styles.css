@@ -28,7 +28,19 @@ h5 {
 }
 
 h2 {
-  color:blue
+  color:rgb(185, 112, 1);
+}
+
+h6 {
+  color:rgb(174, 174, 174);
+}
+
+h3 {
+  color:rgb(174, 174, 174);
+}
+
+h1{
+ color: rgb(149, 146, 0);
 }
 
 .jumbotron {
