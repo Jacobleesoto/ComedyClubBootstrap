@@ -9,12 +9,20 @@
   height: 20%;
 }
 
+.breadcrumb {
+  background-color: rgb(59, 57, 57);
+}
+
 body {
-  background-color: rgb(59, 2, 2)
+  background-color: rgb(59, 2, 2);
 }
 
 .navbar {
   background-color: #000000;
+}
+
+#hamburger {
+  color: rgb(99, 98, 98);
 }
 
 .table td,
@@ -28,25 +36,25 @@ h5 {
 }
 
 h2 {
-  color:rgb(185, 112, 1);
+  color: rgb(185, 112, 1);
 }
 
 h6 {
-  color:rgb(174, 174, 174);
+  color: rgb(174, 174, 174);
 }
 
 h3 {
-  color:rgb(174, 174, 174);
+  color: rgb(174, 174, 174);
 }
 
-h1{
- color: rgb(149, 146, 0);
+h1 {
+  color: rgb(149, 146, 0);
 }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #1a1a1a, rgb(59, 2, 2),  #1a1a1a);
+  background-image: linear-gradient(to right, #1a1a1a, rgb(59, 2, 2), #1a1a1a);
   color: rgb(149, 146, 0);
 }
 
@@ -67,15 +75,15 @@ h1{
   transform: translateX(33%);
 }
 
-.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-left.active,
 .carousel-inner .carousel-item-prev {
   transform: translateX(-33%);
 }
-  
+
 .carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
+.carousel-inner .carousel-item-left {
   transform: translateX(0);
-  
+
 }
 
 #headlinerCard {
