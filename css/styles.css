@@ -89,3 +89,7 @@ h1 {
 #headlinerCard {
   background-color: rgb(59, 2, 2);
 }
+
+#mediaComments, p {
+  color: black;
+}
