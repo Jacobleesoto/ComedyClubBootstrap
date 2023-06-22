@@ -11,7 +11,6 @@
     <title>Comedy Club</title>
 </head>
 
-
 <body>
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -25,8 +24,7 @@
             </div>
         </div>
     </header>
-
-
+    <!--nav -->
     <nav class="navbar navbar-expand-sm sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="images\c-logo.jpg" height="30" width="30" /></a>
@@ -53,21 +51,24 @@
             </div>
         </div>
     </nav>
-
-
-    <div class="d-flex-container">
+    <!-- nav end -->
+    <!-- Headliner card -->
+    <div class="container">
         <div class="row">
             <div class="col col-sm-12">
                 <h2>This Weeks Headliner:</h2>
             </div>
             <div id="headlinerCard" class="card card-columns">
                 <div class="media col col-sm-8">
-                    <img id="granny" src="images\granndy-vid.png" class="img-fluid d-flex ml-5 img-thumbnail mr-5"
+                    <img id="granny" src="images\granndy-vid.png" class="img-fluid ml-5 img-thumbnail mr-5"
                         alt="Headliner Photo">
-                    <h5 class="card-body">Headline Harriet</h5>
-                    <p class="card-body"><br>lorem ipsum smeen whint foren dint flee man dro </p>
+                    <div class="card-body">
+                        <h5 class="card-title">Headline Harriet</h5>
+                        <p class="card-text"><br>lorem ipsum smeen whint foren dint flee man dro </p>
+                    </div>
+
                     <div>
-                        <video class="col col-sm-12" id="headlinerVideo" width="auto" height="25" autoplay controls
+                        <video class="col col-sm-12 ml-5" id="headlinerVideo" width="auto" height="25" autoplay controls
                             loop>
                             <source src="videos\granny-vid.mp4" type="video/mp4">
                         </video>
@@ -76,78 +77,50 @@
             </div>
         </div>
     </div>
-
-
+    <!-- Headliner card end -->
+    <!-- calendar-->
     <div class="container">
         <div class="row">
-            <div class="table-responsive">
-                <table class="table table-bordered vh-100">
+            <div class="table-responsive" id="demo-desktop-month-view">
+                <div class="button-container-calendar">
+                    <button id="previous" onclick="previous()">&#8249;</button>
+                    <button id="next" onclick="next()">&#8250;</button>
+                </div>
+                <table class="table table-bordered vh-100 table-calendar" id="calendar" data-lang="en">
                     <thead>
                         <div>
                             <tr>
-                                <th class="text-center" colspan="7">June</th>
+                                <th id="monthAndYear" class="text-center" colspan="7"></th>
                             </tr>
                         </div>
                         <tr class="text-center">
-                            <th>Sunday</th>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
+                            <thead id="thead-month"></thead>
                         </tr>
                     </thead>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                        <td>21</td>
-                        <td>22</td>
-                        <td>23</td>
-                        <td>24</td>
-                    </tr>
-                    <tr>
-                        <td>25</td>
-                        <td>26</td>
-                        <td>27</td>
-                        <td>28</td>
-                        <td>29</td>
-                        <td>30</td>
-                        <td></td>
+                    <tbody id="calendar-body"></tbody>
                 </table>
+            </div>
+            <div class="footer-container-calendar">
+                <label for="month">Jump To: </label>
+                <select id="month" onchange="jump()">
+                    <option value=0>Jan</option>
+                    <option value=1>Feb</option>
+                    <option value=2>Mar</option>
+                    <option value=3>Apr</option>
+                    <option value=4>May</option>
+                    <option value=5>Jun</option>
+                    <option value=6>Jul</option>
+                    <option value=7>Aug</option>
+                    <option value=8>Sep</option>
+                    <option value=9>Oct</option>
+                    <option value=10>Nov</option>
+                    <option value=11>Dec</option>
+                </select>
+                <select id="year" onchange="jump()"></select>
             </div>
         </div>
     </div>
-
-
+    <!-- calendar end -->
     <footer>
         <div class="container">
             <div class="row">
@@ -179,6 +152,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
 
 </body>
 
