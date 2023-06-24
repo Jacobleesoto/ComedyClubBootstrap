@@ -1,0 +1,195 @@
+$color-primary: rgb(59, 2, 2);
+$color-secondary: rgb(59, 57, 57);
+$color-black: #000000;
+$font-primary: yellow;
+$font-secondary: rgb(174, 174, 174);
+$font-header1: rgb(185, 112, 1);
+$font-header2: rgb(149, 146, 0);
+$font-header3: rgb(255, 255, 255);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+
+/* media and components color*/
+.breadcrumb {
+    background-color: $color-secondary;
+  }
+  
+  body {
+    background-color: $color-primary;
+  }
+  
+  .navbar {
+    background-color: $color-black;
+  }
+  
+  #hamburger {
+    color: rgb(99, 98, 98);
+  }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #1a1a1a, $color-primary, #1a1a1a);
+    color: $font-header2;
+  }
+  
+  #headlinerCard {
+    background-color: $color-primary;
+  }
+  
+  /* media and components color end*/
+  
+  /* fonts*/
+  
+  .table td,
+  p {
+    color: $font-primary;
+  }
+  
+  .table th,
+  h5 {
+    color: $font-header3;
+  }
+  
+  h2 {
+    color: $font-header1;
+  }
+  
+  h6 {
+    color: $font-secondary;
+  }
+  
+  h3 {
+    color: $font-secondary;
+  }
+  
+  h1 {
+    color: $font-header2;
+  }
+  
+  #mediaComments,
+  p {
+    color: $color-black;
+  }
+  
+  /* fonts end*/
+  
+  /* media and components w/ no color*/
+  
+  #granny {
+    max-width: 15%;
+    height: auto;
+  }
+  
+  #headlinerVideo {
+    position: static;
+    width: 70%;
+    height: 20%;
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33%);
+  }
+  
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33%);
+  }
+  
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left {
+    transform: translateX(0);
+  
+  }
+  
+  .carousel-item img {
+    width: 350px;
+    max-height: 500px;
+  }
+  
+  /* media and components w/ no color*/
+  
+  
+  /* calendar start*/
+  .button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  
+  .table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-calendar td,
+  .table-calendar th {
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .date-picker.selected {
+    font-weight: bold;
+    outline: 1px dashed #00BCD4;
+  }
+  
+  .date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+  }
+  
+  
+  
+  #monthAndYear {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+  }
+  
+  #previous {
+    float: left;
+  }
+  
+  #next {
+    float: right;
+  }
+  
+  .footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+  }
+  
+  .footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: $color-black;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+  }
+  
+  /* calendar end*/
