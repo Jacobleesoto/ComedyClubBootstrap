@@ -75,91 +75,106 @@
     </div>
     <!--breadcrumb end-->
     <!--full menu -->
-    <div class="container py-5">
-        <div class="row">
-            <!--food menu -->
-            <div class="col-12 mt-4">
-                <h3 class="text-center">Hungry?</h3>
-                <hr class="accent my-5">
-            </div>
-            <div class="card-columns">
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$12</span>
-                    <h6 class="text-truncate">Bone- in Wings</h6>
-                    <p class="small">A classc. Mild/medium/hot/blazin'</p>
-                    <img class="col col-12" src="images\wings.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$10</span>
-                    <h6 class="text-truncate">Mozzarella sticks</h6>
-                    <p class="small">Deep fried and served with marinara.</p>
-                    <img class="col col-12" src="images\mozz sticks.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$8</span>
-                    <h6 class="text-truncate">Fries</h6>
-                    <p class="small">add cheese and bacon for an extra $3</p>
-                    <img class="col col-12" src="images\fries.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$6</span>
-                    <h6 class="text-truncate">Soft Pretzels</h6>
-                    <p class="small">Your choice of mustard or cheese for dippin'</p>
-                    <img class="col col-12" src="images\pretzel.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$14</span>
-                    <h6>Pizza</h6>
-                    <p>cheese only or add pepperoni</p>
-                    <img class="col col-12" src="images\pizza.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$10</span>
-                    <h6 class="text-truncate">Chips n Dip</h6>
-                    <p class="small">in the mood for salsa, queso or french onion?</p>
-                    <img class="col col-12" src="images\chips.jpeg">
-                </div>
-            </div>
-            <!--food menu end-->
-            <!--drink menu -->
-            <div class="col-12 mt-4">
-                <h3 class="text-center">Thirsty?</h3>
-                <hr class="accent my-5">
-            </div>
-            <div class="card-columns">
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$15</span>
-                    <h6 class="text-truncate">Moscow Mule</h6>
-                    <p class="small">lorem ipsum drink drink</p>
-                    <img class="col col-12" src="images\mule.webp">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$13</span>
-                    <h6 class="text-truncate">Screwdriver</h6>
-                    <p class="small">lorem ipsum lor em ip sum</p>
-                    <img class="col col-12" src="images\screwdriver.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$15</span>
-                    <h6 class="text-truncate">JagerBomb </h6>
-                    <p class="small">Lorem Ipsum drink in german</p>
-                    <img class="col col-12" src="images\jager.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <span class="float-right font-weight-bold">$7</span>
-                    <h6 class="text-truncate">Shots</h6>
-                    <p class="small">Lorem ipsum drink faster</p>
-                    <img class="col col-12" src="images\shot.jpeg">
-                </div>
-                <div class="card bg-dark card-body">
-                    <h6 class="text-truncate">Custom Drink</h6>
-                    <p class="small">Ask our bartender for anything. They'll google it and make it for you</p>
-                    <img class="col col-12" src="images\bar.jpeg">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" href="#hungry" role="tab" data-toggle="tab">Hungry?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#thirsty" role="tab" data-toggle="tab">Thirsty?</a></li>
+    </ul>
+
+    <!--food menu -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="hungry">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <h3 class="text-center">Hungry?</h3>
+                        <hr class="accent my-5">
+                    </div>
+                    <div class="card-columns">
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$12</span>
+                            <h6 class="text-truncate">Bone- in Wings</h6>
+                            <p class="small">A classc. Mild/medium/hot/blazin'</p>
+                            <img class="col col-12" src="images\wings.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$10</span>
+                            <h6 class="text-truncate">Mozzarella sticks</h6>
+                            <p class="small">Deep fried and served with marinara.</p>
+                            <img class="col col-12" src="images\mozz sticks.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$8</span>
+                            <h6 class="text-truncate">Fries</h6>
+                            <p class="small">add cheese and bacon for an extra $3</p>
+                            <img class="col col-12" src="images\fries.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$6</span>
+                            <h6 class="text-truncate">Soft Pretzels</h6>
+                            <p class="small">Your choice of mustard or cheese for dippin'</p>
+                            <img class="col col-12" src="images\pretzel.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$14</span>
+                            <h6>Pizza</h6>
+                            <p>cheese only or add pepperoni</p>
+                            <img class="col col-12" src="images\pizza.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$10</span>
+                            <h6 class="text-truncate">Chips n Dip</h6>
+                            <p class="small">in the mood for salsa, queso or french onion?</p>
+                            <img class="col col-12" src="images\chips.jpeg">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!--drink menu end-->
+        </div>
+        <!--food menu end-->
+        <!--drink menu -->
+        <div role="tabpanel" class="tab-pane fade" id="thirsty">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <h3 class="text-center">Thirsty?</h3>
+                        <hr class="accent my-5">
+                    </div>
+                    <div class="card-columns">
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$15</span>
+                            <h6 class="text-truncate">Moscow Mule</h6>
+                            <p class="small">lorem ipsum drink drink</p>
+                            <img class="col col-12" src="images\mule.webp">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$13</span>
+                            <h6 class="text-truncate">Screwdriver</h6>
+                            <p class="small">lorem ipsum lor em ip sum</p>
+                            <img class="col col-12" src="images\screwdriver.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$15</span>
+                            <h6 class="text-truncate">JagerBomb </h6>
+                            <p class="small">Lorem Ipsum drink in german</p>
+                            <img class="col col-12" src="images\jager.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <span class="float-right font-weight-bold">$7</span>
+                            <h6 class="text-truncate">Shots</h6>
+                            <p class="small">Lorem ipsum drink faster</p>
+                            <img class="col col-12" src="images\shot.jpeg">
+                        </div>
+                        <div class="card bg-dark card-body">
+                            <h6 class="text-truncate">Custom Drink</h6>
+                            <p class="small">Ask our bartender for anything. They'll google it and make it for you</p>
+                            <img class="col col-12" src="images\bar.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!--drink menu end-->
     <!-- full menu end-->
 
     <footer>
