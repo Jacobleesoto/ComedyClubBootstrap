@@ -1,4 +1,10 @@
 /* media and components color*/
+footer {
+  background-color: #000000; }
+
+.card-text {
+  color: white; }
+
 .breadcrumb {
   background-color: #3b3939; }
 
@@ -17,7 +23,7 @@ body {
   background-image: linear-gradient(to right, #1a1a1a, #3b0202, #1a1a1a);
   color: #959200; }
 
-#headlinerCard {
+#headlinerVideo, #headlinerCard {
   background-color: #3b0202; }
 
 /* media and components color end*/
@@ -30,16 +36,16 @@ p {
 h5 {
   color: white; }
 
-h2 {
+h2, #monthLabel {
   color: #b97001; }
 
-h6 {
-  color: #aeaeae; }
-
-h3 {
+h6, h3, #footerText {
   color: #aeaeae; }
 
 h1 {
+  color: #959200; }
+
+.card-body h4 {
   color: #959200; }
 
 #mediaComments,
@@ -48,14 +54,10 @@ p {
 
 /* fonts end*/
 /* media and components w/ no color*/
-#granny {
-  max-width: 15%;
-  height: auto; }
-
-#headlinerVideo {
-  position: static;
-  width: 70%;
-  height: 20%; }
+#headlinerImg {
+  max-width: 65%;
+  height: auto;
+  background-color: #000000; }
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
@@ -82,11 +84,10 @@ p {
 /* calendar start*/
 .button-container-calendar button {
   cursor: pointer;
-  display: inline-block;
   zoom: 1;
-  background: #00a2b7;
-  color: #fff;
-  border: 1px solid #0aa2b5;
+  background: black;
+  color: yellow;
+  border: 1px solid white;
   border-radius: 4px;
   padding: 5px 10px; }
 
