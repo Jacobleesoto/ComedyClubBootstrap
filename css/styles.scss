@@ -12,6 +12,13 @@ $header-font: "Lobster", cursive;
 
 
 /* media and components color*/
+
+.card-columns {
+  .card {
+    background-color: rgb(218, 218, 218);
+  }
+}
+
 footer {
   background-color: $color-black;
 }
