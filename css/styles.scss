@@ -19,6 +19,13 @@ $header-font: "Lobster", cursive;
   }
 }
 
+.fa-angle-double-left,
+.fa-angle-double-right {
+
+  color: #000000;
+  border-color: #000000;
+}
+
 footer {
   background-color: $color-black;
 }
@@ -50,7 +57,8 @@ body {
   color: $font-header2;
 }
 
-#headlinerVideo, #headlinerCard {
+#headlinerVideo,
+#headlinerCard {
   background-color: $color-primary;
 }
 
@@ -68,11 +76,14 @@ h5 {
   color: $font-header3;
 }
 
-h2, #monthLabel {
+h2,
+#monthLabel {
   color: $font-header1;
 }
 
-h6, h3, #footerText {
+h6,
+h3,
+#footerText {
   color: $font-secondary;
 }
 
@@ -96,7 +107,7 @@ p {
 #headlinerImg {
   max-width: 65%;
   height: auto;
- background-color: #000000;
+  background-color: #000000;
 }
 
 
@@ -133,7 +144,7 @@ p {
 /* calendar start*/
 .button-container-calendar button {
   cursor: pointer;
-  
+
   zoom: 1;
   background: black;
   color: yellow;

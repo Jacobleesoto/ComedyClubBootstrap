@@ -2,6 +2,11 @@
 .card-columns .card {
   background-color: #dadada; }
 
+.fa-angle-double-left,
+.fa-angle-double-right {
+  color: #000000;
+  border-color: #000000; }
+
 footer {
   background-color: #000000; }
 
@@ -26,7 +31,8 @@ body {
   background-image: linear-gradient(to right, #1a1a1a, #3b0202, #1a1a1a);
   color: #959200; }
 
-#headlinerVideo, #headlinerCard {
+#headlinerVideo,
+#headlinerCard {
   background-color: #3b0202; }
 
 /* media and components color end*/
@@ -39,10 +45,13 @@ p {
 h5 {
   color: white; }
 
-h2, #monthLabel {
+h2,
+#monthLabel {
   color: #b97001; }
 
-h6, h3, #footerText {
+h6,
+h3,
+#footerText {
   color: #aeaeae; }
 
 h1 {
